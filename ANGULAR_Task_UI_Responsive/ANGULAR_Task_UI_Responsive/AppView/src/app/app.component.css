@@ -1,0 +1,308 @@
+img {
+    width: 100% !important;
+    height: 500px !important;
+    object-fit: cover !important;
+}
+
+.container-fluid {
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 970px !important;
+}
+
+.btn-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-primary {
+    padding: 10px 30px;
+    font-weight: bold;
+    color: #2dbcdb;
+    border: 2px solid #2dbcdb;
+    background-color: #daeeee;
+    /* margin-right: 20px; */
+}
+
+.btn-section button:nth-child(1) {
+    padding: 10px 30px;
+    font-weight: bold;
+    color: #2dbcdb;
+    border: 2px solid #2dbcdb;
+    background-color: #daeeee;
+    /* margin-right: 20px; */
+}
+
+.btn-section button:nth-child(2),
+button:nth-child(3) {
+    border: 2px solid rgb(237, 229, 229);
+    color: black;
+    font-weight: bold;
+    background-color: unset;
+}
+
+.btn-section div:nth-child(2) {
+    /* border: 1px solid red; */
+}
+
+.btn-section div:nth-child(2) button:nth-child(1) {
+    background: none;
+}
+
+.btn-section div:nth-child(2) button:nth-child(2) {
+    background-color: #267cc7;
+    color: #fff;
+    border: 2px solid #267cc7;
+}
+
+.progress-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middle-section {
+    width: 90%;
+}
+
+.content {
+    /* border: 1px solid red; */
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    top: 0;
+}
+
+.content .outer {
+    margin: 0;
+    background-color: #fff;
+    padding: 30px 100px;
+}
+
+.heading {
+    padding: 30px 140px;
+    text-align: center;
+    color: #fff;
+}
+
+.result-top {
+    box-shadow: 0 0 50px #ccc;
+}
+
+.result-top .div1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.material-symbols-outlined {
+    position: relative;
+    /* top: 7px; */
+    align-items: center;
+}
+
+.icon .btn-primary {
+    padding: 10px;
+    border: 1px solid #267cc7;
+    background-color: #267cc7;
+    color: #fff;
+}
+
+.select {
+    width: 100%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid rgb(237, 229, 229);
+    border-radius: 5px;
+    background: transparent;
+    color: gray;
+}
+
+.prod-tbl tr td:nth-child(1) {
+    display: flex !important;
+    align-items: center;
+}
+
+.progress-section label {
+    width: 210px;
+    /* border: 1px solid red; */
+}
+
+.progress-section div:nth-child(3) {
+    /* border: 1px solid red; */
+    width: 190px;
+}
+
+.progress-section .btn-primary {
+    border: 2px solid rgb(237, 229, 229);
+    color: black;
+    font-weight: bold;
+    background-color: unset;
+}
+
+.prod-tbl tr td:nth-child(2),
+td:nth-child(3) {
+    text-align: right;
+}
+
+.table-light {
+    color: #2dbcdb;
+    font-weight: bold;
+    --bs-table-bg: unset;
+    background-color: #daeeee !important;
+}
+
+.nav {
+    border-bottom: 1px solid rgb(236, 232, 232);
+}
+
+.nav-item {
+    /* border: 1px solid red; */
+    width: 30%;
+}
+
+.link1 {
+    width: fit-content;
+    border-bottom: 5px solid #2dbcdb;
+    border-radius: 4px;
+    color: #2dbcdb;
+}
+
+.progress-section {
+    border: 1px solid rgb(236, 232, 232);
+    padding: 20px;
+    border-radius: 5px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.top-bar-hide {
+    border-top: 1px solid rgb(236, 232, 232) !important;
+    border-bottom: 1px solid rgb(236, 232, 232);
+    padding: 20px 40px;
+    font-size: 20px;
+    display: none;
+}
+
+.show-btn{
+    display: none !important;
+}
+
+.show-progress-bar{
+    display: none;
+}
+
+@media screen and (max-width:600px) {
+    .top-bar-hide {
+        display: block;
+    }
+    .show-progress-bar{
+        display: block;
+    }
+    .show-btn{
+        font-size: 20px;
+        display: block !important;
+        justify-content: center !important;
+    }
+    .show-btn .btn-primary{
+        padding: 15px 30px;
+        font-size: 20px;
+        width: 100%;
+    }
+    .show-btn .btn-primary:nth-child(1){
+        background: none;
+        margin-right: 10px;
+    }
+    .show-btn .btn-primary:nth-child(2){
+        color: #fff;
+        border: 2px solid #267cc7;
+        background-color: #267cc7;
+        margin-left: 10px;
+    }
+    .show-btn span{
+        font-size: 30px;
+    }
+
+    .content {
+        position: relative;
+        width: 100%;
+        left: 0;
+    }
+
+    img {
+        display: none;
+    }
+
+    .container .outer {
+        padding: 0;
+        /* border: 1px solid red; */
+    }
+
+    .container {
+        padding: 0;
+        width: 100% !important;
+    }
+
+    .middle-section {
+        width: 100%;
+    }
+
+    .btn-section {
+        display: block;
+    }
+
+    .middle-section .btn-section .btn-primary {
+        padding: 10px 50px !important;
+        font-size: 18px !important;
+        font-weight: bold !important;
+    }
+
+    .middle-section .hide-btn {
+        display: none !important;
+    }
+
+    .select {
+        width: 230px;
+    }
+
+    .nav-item {
+        width: 50%;
+    }
+
+    .result-top {
+        box-shadow: none;
+        border: 1px solid rgb(236, 232, 232);
+        border-radius: 5px;
+    }
+
+    .top-bar {
+        padding-left: 0;
+        padding-right: 0;
+        padding: 10px 10px;
+    }
+
+    .nav {
+        padding: 0px 30px;
+    }
+    .nav-link{
+        padding-left: 0;
+    }
+    .progress-section{
+        display: none;
+    }
+    .result-top{
+        padding: 40px !important;
+        border: none;
+    }
+    .result-inner{
+        border: 1px solid rgb(236, 232, 232);
+        padding: 10px;
+    }
+    .show-progress-bar .btn-primary{
+        background: none;
+        width: 120px;
+        /* padding: 10px 30px; */
+    }
+}

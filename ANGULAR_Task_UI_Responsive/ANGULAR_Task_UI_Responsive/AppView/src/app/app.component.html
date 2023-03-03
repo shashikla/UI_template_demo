@@ -1,0 +1,257 @@
+
+
+
+  <div class="container-fluid">
+    <img src="../assets/background-img.jpg">
+    <div class="container">
+      <div class="content">
+        <h1 class="heading" >Maximize your efficiency. Get fast results.</h1>
+          <div class="row outer">
+            <div class="top-bar-hide">
+              <b>OSC Calculator</b>
+            </div>
+            <div class="top-bar">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link link1">Running conditions</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Machine selection</a>
+                </li>
+              </ul> 
+            </div>
+            <div class="col-lg-8 col-12">
+              
+              <div class="middle-section mt-3 px-4">
+                <h4>Running conditions</h4>
+                <p>Online the parameters for estimation</p>
+                <div class="btn-section mb-4">
+                <div >
+                  <button class="btn btn-primary">Cold</button>
+                <button class="btn btn-primary mx-3">Mild</button>
+                <button class="btn btn-primary">Hot</button>
+                </div>
+                <div class="hide-btn" style="justify-content:space-between;display: flex;">
+                  <button class="btn btn-primary mx-3" style="display: flex;justify-content: center;">
+                    <span class="material-symbols-outlined px-2">
+                      refresh
+                      </span>Reset
+                  </button>
+                <button class="btn btn-primary" style="display: flex;justify-content: center;">
+                  <span class="material-symbols-outlined px-2">
+                    arrow_forward
+                    </span>Next</button>
+                </div>
+              </div>
+                <div>
+                  <table style="width: 100%;">
+                    <tr>
+                      <td >
+                        Daily running hours
+                      </td>
+                      <td style="width: 30px;">Outlet purity</td>
+                      <td style="width: 30px;"></td>
+                    </tr>
+                    <tr>
+                      <td><select class="select" name="cars" id="cars">
+                        <option value="volvo">15hr</option>
+                        <option value="saab">24hr</option>
+                        <option value="opel">10hr</option>
+                        <option value="audi">1hr</option>
+                      </select></td>
+                      <td>
+                        <button class="btn btn-primary mx-3" style="background: none;">5ppm</button>
+                      </td>
+                      <td>
+                        <button class="btn btn-primary">10ppm</button>
+                      </td>
+                    </tr>
+                  </table>
+                  <div class="show-progress-bar my-3">
+                    <div class="my-2"  style="display: flex;justify-content:space-between">
+                      <div style="width: 60%;">
+                          <label for="">Ambient temperature</label>
+                        <div class="progress" style="width: 100%;">
+                          <div class="progress-bar bg-info" role="progressbar" aria-label="Info example" style="width: 25%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                      </div>
+                      <div>
+                        <button class="btn btn-primary" >15&#8451;</button>
+                      </div>
+                    </div>
+                    <div class="my-2"  style="display: flex;justify-content:space-between">
+                      <div style="width: 60%;">
+                          <label for="">Ambient relative humidity</label>
+                        <div class="progress" style="width: 100%;">
+                          <div class="progress-bar bg-info" role="progressbar" aria-label="Info example" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                      </div>
+                      <div>
+                        <button class="btn btn-primary" >68%</button>
+                      </div>
+                    </div>
+                    <div class="my-2"  style="display: flex;justify-content:space-between">
+                      <div style="width: 60%;">
+                          <label for="">Ambient pressure</label>
+                        <div class="progress" style="width: 100%;">
+                          <div class="progress-bar bg-info" role="progressbar" aria-label="Info example" style="width: 70%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                      </div>
+                      <div>
+                        <button class="btn btn-primary" >1bar(a)</button>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="show-btn mt-4">
+                  <div style="justify-content:center;display: flex;">
+                    <button class="btn btn-primary" style="display: flex;justify-content: center;">
+                      <span class="material-symbols-outlined px-2">
+                        refresh
+                        </span>Reset
+                    </button>
+                  <button class="btn btn-primary " style="display: flex;justify-content: center;">
+                    <span class="material-symbols-outlined px-2">
+                      arrow_forward
+                      </span>Next</button>
+                  </div>
+                  </div>
+                </div>
+                <div class="progress-section my-4">
+                  <div>
+                    <label for="">Ambient temperature</label>
+                  </div>
+                  <div class="progress" style="width: 40%;">
+                    <div class="progress-bar bg-info" role="progressbar" aria-label="Info example" style="width: 25%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div>
+                    <button class="btn btn-primary" style="padding-left: 80px ;">15</button>
+                    <span style="font-weight: bold;"> &#8451;</span>
+                  </div>
+                </div>
+                <div class="progress-section my-4">
+                  <div>
+                    <label for="">Ambient relative humidity</label>
+                  </div>
+                  <div class="progress" style="width: 40%;">
+                    <div class="progress-bar bg-info" role="progressbar" aria-label="Info example" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div>
+                    <button class="btn btn-primary" style="padding-left: 80px ;">68</button>
+                    <span style="font-weight: bold;"> %</span>
+                  </div>
+                </div>
+                <div class="progress-section my-4">
+                  <div>
+                    <label for="">Ambient pressure</label>
+                  </div>
+                  <div class="progress" style="width: 40%;">
+                    <div class="progress-bar bg-info" role="progressbar" aria-label="Info example" style="width: 70%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div>
+                    <button class="btn btn-primary" style="padding-left: 80px ;">15</button>
+                    <span style="font-weight: bold;"> bar(a)</span>
+                  </div>
+                </div>
+                
+              </div>
+              
+            </div>
+            <div class="col-lg-4 col-12 result-top p-3">
+              <div class="result-inner">
+                <div class="div1">
+                  <div style="line-height: 2px;">
+                    <h2 class="heading-h mb-3" style="font-weight: bold;">Result</h2>
+                    <p>Required model for carryover of 10ppm is</p>
+                    <h3 class="heading-h" style="color: #2dbcdb;">OSCI250 Organoclay</h3>
+                  </div>
+                  <div class="icon">
+                    <!-- <img src="" alt="image" srcset=""> -->
+                    <button class="btn btn-primary" style="display:flex;"><span class="material-symbols-outlined">
+                      token
+                      </span></button>
+                  </div>
+                </div>
+                <div>
+                  <h5 class="heading-h mt-3" style="color: #2dbcdb;">Input</h5>
+                  <table style="width: 100%;">
+                    <tr>
+                      <td>Ambient temperature</td>
+                      <td>25^C</td>
+                    </tr>
+                    <tr>
+                      <td>Ambient relative humidity</td>
+                      <td>68%</td>
+                    </tr>
+                    <tr>
+                      <td>Ambient pressure</td>
+                      <td>1bar(a)</td>
+                    </tr>
+                  </table>
+                </div>
+                <div>
+                  <h5 class="heading-h mt-3" style="color: #2dbcdb;">Output</h5>
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Product</th>
+                        <th scope="col" style="text-align: right;">Product Price</th>
+                        <th scope="col" style="text-align: right;">Product Weight(kg)</th>
+                      </tr>
+                    </thead>
+                    <tbody class="prod-tbl">
+                      <tr>
+                        <!-- <th scope="row">1</th> -->
+                        <td><span class="material-symbols-outlined">
+                          chevron_right
+                          </span>Product A</td>
+                        <td>1400</td>
+                        <td>8.2</td>
+                      </tr>
+                      <tr>
+                        <!-- <th scope="row">2</th> -->
+                        <td><span class="material-symbols-outlined">
+                          chevron_right
+                          </span>Product B</td>
+                        <td>2500</td>
+                        <td>4.2</td>
+                      </tr>
+                      <tr>
+                        <!-- <th scope="row">3</th> -->
+                        <td><span class="material-symbols-outlined">
+                          chevron_right
+                          </span>Product C</td>
+                        <td>1000</td>
+                        <td>9.0</td>
+                      </tr>
+                      <tr>
+                        <td><span class="material-symbols-outlined">
+                          chevron_right
+                          </span>Product D</td>
+                        <td>700</td>
+                        <td>5.5</td>
+                      </tr>
+                      <tr>
+                        <td><span class="material-symbols-outlined">
+                          chevron_right
+                          </span>Product E</td>
+                        <td>2000</td>
+                        <td>10.01</td>
+                      </tr>
+                      <tr class="table-light">
+                        <td>Total</td>
+                        <td>7200</td>
+                        <td>36.91</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+ 
